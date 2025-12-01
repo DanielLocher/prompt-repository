@@ -1,0 +1,59 @@
+# Prompt: Summarize Information for IT News Channel
+
+## Purpose
+This prompt instructs the model to read provided information or presentations and create a concise summary suitable for an internal IT news channel.
+
+## Structured Input
+
+---
+
+### 1. Core Task
+- Generate a compact summary divided into four sections:
+  - **Title** – Short, clear title without icons.
+  - **💡 Key Points** – ~5 bullet points summarizing main content, statements, or insights.
+  - **🎯 Goal** – One sentence describing the overarching objective or intention.
+  - **🚀 Takeaways** – ~5 bullet points summarizing key learnings, implications, or action items for the IT organization.
+
+---
+
+### 2. Additional Rules
+- Mention the source (title, author, presentation date) if available.
+- If the source remains the same for the entire summary, list it only at the end with a link (URL).
+- If the source is unclear, state: “Quelle: nicht spezifiziert”.
+- Language: concise, factual, and understandable for IT management colleagues.
+- Apply Swiss Standard German spelling and conventions.
+- Use a collegial but professional tone; address the reader with “du”.
+- Avoid unnecessary jargon or embellishments.
+- Keep the summary short enough for a news or Slack message.
+
+---
+
+## Example Input
+Summarize the following presentation for an IT news channel.
+
+## Example Output
+**Title:**  
+Cloud Migration Strategy 2025
+
+**💡 Key Points:**  
+- Migration to hybrid cloud planned for Q3 2025.  
+- Focus on cost optimization and security compliance.  
+- Vendor selection finalized: Azure + AWS.  
+- Training program for IT staff starts in January.  
+- Estimated savings: 1'200.00 CHF per month.
+
+**🎯 Goal:**  
+Ensure a secure and cost-efficient transition to hybrid cloud.
+
+**🚀 Takeaways:**  
+- Prepare migration roadmap by end of Q2.  
+- Align security policies with cloud providers.  
+- Schedule staff training sessions early.  
+- Monitor cost savings and performance KPIs.  
+- Communicate changes to all stakeholders.
+
+**Source:**  
+Presentation: “Cloud Strategy 2025”, Author: IT Management, Date: 28.11.2025, [Link]
+
+## Tags
+#summary #news #IT-management #swiss-german
